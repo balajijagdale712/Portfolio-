@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balaji Navnath Jagdale | Portfolio</title>
+  <meta name="description" content="B.Tech Computer Engineering Student at MIT Academy of Engineering — Portfolio of Balaji Navnath Jagdale" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+<!-- ============================
+     LOADING SCREEN
+     ============================ -->
+<div id="loader">
+  <div class="loader-logo">BJJ</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+  <div class="loader-text">Initializing Portfolio...</div>
+</div>
+
+<!-- ============================
+     CUSTOM CURSOR
+     ============================ -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- ============================
+     SCROLL PROGRESS
+     ============================ -->
+<div id="scroll-progress"></div>
+
+<!-- ============================
+     PARTICLE CANVAS (BG)
+     ============================ -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- ============================
+     NAVIGATION
+     ============================ -->
+<nav>
+  <div class="nav-logo">BJJ</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Nav -->
+<ul class="mobile-nav" id="mobile-nav">
+  <li><a href="#about">About</a></li>
+  <li><a href="#education">Education</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#certifications">Certifications</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<!-- ============================
+     HERO SECTION
+     ============================ -->
+<section id="hero">
+  <div class="hero-grid">
+    <!-- Left: Text -->
+    <div class="hero-content">
+      <div class="hero-tag hero-animate">🎓 MIT Academy of Engineering</div>
+      <h1 class="hero-name hero-animate">
+        <span class="name-gradient">Balaji</span><br>
+        Navnath<br>
+        Jagdale
+      </h1>
+      <div class="hero-typing-wrap hero-animate">
+        &gt;&nbsp;<span id="typed-text"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc hero-animate">
+        "Passionate about coding, AI, and problem-solving — building tomorrow's solutions with clean, efficient code."
+      </p>
+      <div class="hero-btns hero-animate">
+        <a href="#projects" class="btn-primary">View Projects &rarr;</a>
+        <a href="resume.pdf" download class="btn-secondary">⬇ Download Resume</a>
+        <a href="#contact" class="btn-ghost">Contact Me</a>
+      </div>
+    </div>
+
+    <!-- Right: Photo -->
+    <div class="hero-visual">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring"></div>
+        <div class="hero-photo-ring-2"></div>
+        <div class="hero-photo-glow"></div>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA08AASDGTYuAABcRmNhQlgAAFxGanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAXCBqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBh[...]" alt="Balaji Jagdale" />
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
